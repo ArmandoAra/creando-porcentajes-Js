@@ -1,0 +1,32 @@
+body{
+    background: snow;
+}
+
+header{
+    background-color: thistle;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    padding: 5px;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+section{
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+}
+
+button{
+    margin: 30px auto;
+}
