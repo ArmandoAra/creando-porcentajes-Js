@@ -30,3 +30,7 @@ section{
 button{
     margin: 30px auto;
 }
+
+input{
+    text-align: center;
+}

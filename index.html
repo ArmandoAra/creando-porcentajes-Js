@@ -15,16 +15,27 @@
     <section>
         <h2>Calcula el precio a pagar de tus productos con descuento</h2>
         <form>
-            <label for="PrecioOriginal PorcientoDeseado">
+            <label for="PrecioOriginal ">
                 <div>
                     <p>Precio</p>
                     <input id="PrecioOriginal" type="number">
                 </div>
+            </label>
+
+            <label for="PorcientoDeseado">
                 <div>
                     <p>Porcentaje a descontar</p>
                     <input id="PorcientoDeseado" type="number">
                 </div>                
                 <button type="button" onclick="calcularPrecioConDescuento()" >Hacer Calculo</button>
+            </label>
+            
+            <label for="cupon">
+                <div>
+                    <p>Escriba un cupon de descuento</p>
+                    <input id="cupon" type="text">
+                </div>
+                <button type="button" onclick="calcularDescuentoCupon()" >Calcular con cupon</button>
             </label>
         </form>
         <p class="resultado">Vas a pagar un total de: </p>
